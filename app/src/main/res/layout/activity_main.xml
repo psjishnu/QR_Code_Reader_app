@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgc"
+    android:gravity="center"
+    android:padding="20dp"
+    >
+  <TextView
+      android:id="@+id/code_info"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:padding="10dp"
+      android:text="Scan for Verification"
+      android:textColor="@android:color/black"
+      android:textSize="20sp"
+      />
+
+  <SurfaceView
+      android:id="@+id/camera_view"
+      android:layout_width="370dp"
+      android:layout_height="523dp"
+      android:layout_above="@+id/info"
+      android:layout_below="@+id/code_info"
+      android:layout_marginTop="6dp"
+      android:layout_marginBottom="59dp" />
+
+  <LinearLayout
+      android:id="@+id/info"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:orientation="vertical"
+      >
+    <!--
+    <TextView
+        android:id="@+id/code_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Demo for Qr code encryption"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        /> -->
+    <!--
+    <Button
+        android:id="@+id/btn_start_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify product"
+        />  -->
+
+
+    <Button
+        android:id="@+id/btn_restart_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/info"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/restart_activity"
+        android:layout_marginBottom="10dp"
+        />
+  </LinearLayout>
+</RelativeLayout>

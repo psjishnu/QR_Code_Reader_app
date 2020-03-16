@@ -1,0 +1,8 @@
+
+
+<resources>
+  <string name="app_name">Diamond Tracker</string>
+  <string name="intro_text">Scan QR to check if product is valid</string>
+  <string name="restart_activity">Restart Activity</string>
+  <string name="stop_start_qreader">Stop app</string>
+</resources>
